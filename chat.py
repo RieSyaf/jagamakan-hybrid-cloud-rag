@@ -4,6 +4,7 @@ from langchain_core.prompts import ChatPromptTemplate #to create chat prompt tem
 
 #connecting to the database and colletion_name
 DB_CONNECTION = "postgresql+psycopg://myuser:mypassword@localhost:5432/vector_db"  #protocol://username:password@host:port/database_name
+
 COLLECTION_NAME = 'diet_guide' # like a table name
 
 def main():
