@@ -1,0 +1,7 @@
+.env
+venv/
+__pycache__/
+*.pdf
+.DS_Store
+langchain_dev_accessKeys.csv
+ingest_s3.py
