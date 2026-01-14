@@ -3,7 +3,7 @@ from langchain_postgres import PGVector #to communicate with Postgres vector db
 from langchain_core.prompts import ChatPromptTemplate #to create chat prompt template
 
 #connecting to the database and colletion_name
-DB_CONNECTION = "postgresql+psycopg://azrie:azrieDB@localhost:5432/vector_db"  #protocol://username:password@host:port/database_name
+DB_CONNECTION = "postgresql+psycopg://myuser:mypassword@localhost:5432/vector_db"  #protocol://username:password@host:port/database_name
 COLLECTION_NAME = 'diet_guide' # like a table name
 
 def main():

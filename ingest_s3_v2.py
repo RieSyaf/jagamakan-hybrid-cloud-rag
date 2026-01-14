@@ -11,7 +11,7 @@ from langchain_text_splitters import RecursiveCharacterTextSplitter #to split la
 load_dotenv()
 
 #connect to vector db in Postgres
-DB_CONNECTION = "postgresql+psycopg://azrie:azrieDB@localhost:5432/vector_db"  #protocol://username:password@host:port/database_name
+DB_CONNECTION = "postgresql+psycopg://myuser:mypassword@localhost:5432/vector_db"  #protocol://username:password@host:port/database_name
 
 def main():
     #------------step 1: download document from S3(AWS cloud storage)-------------
