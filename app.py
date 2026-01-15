@@ -8,8 +8,8 @@ DB_CONNECTION = "postgresql+psycopg://myuser:mypassword@localhost:5432/vector_db
 COLLECTION_NAME = "diet_guide"
 
 # --- UI SETUP ---
-st.set_page_config(page_title="MakanSihat Diet AI", page_icon="🥗")
-st.title("🥗 MakanSihat AI: Diet Guide Assistant")
+st.set_page_config(page_title="JagaMakan", page_icon="🥗")
+st.title("🥗 JagaMakan: Malaysian Diet Guide Assistant")
 st.caption("Powered by Llama 3.2, AWS S3, and Local Vectors")
 
 # --- BACKEND SETUP (Cached) ---
